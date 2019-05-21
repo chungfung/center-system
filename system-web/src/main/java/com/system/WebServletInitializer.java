@@ -1,4 +1,4 @@
-package com.system.web;
+package com.system;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -8,11 +8,11 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * 
  * @author ruoyi
  */
-public class RuoYiServletInitializer extends SpringBootServletInitializer
+public class WebServletInitializer extends SpringBootServletInitializer
 {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
     {
-        return application.sources(RuoYiApplication.class);
+        return application.sources(WebApplication.class);
     }
 }
