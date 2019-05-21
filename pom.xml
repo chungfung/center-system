@@ -3,21 +3,21 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.chungfung</groupId>
-	<artifactId>center-system</artifactId>
+	<groupId>com.hgsoft</groupId>
+	<artifactId>center-hgsoft</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>template-system</name>
+	<name>center-hgsoft</name>
 	<description>Demo project for Spring Boot</description>
 
 	<modules>
-		<module>system-web</module>
-		<module>system-framework</module>
-		<module>system-service</module>
-		<module>system-quartz</module>
-		<module>system-generator</module>
-		<module>system-common</module>
+		<module>hgsoft-web</module>
+		<module>hgsoft-framework</module>
+		<module>hgsoft-service</module>
+		<module>hgsoft-quartz</module>
+		<module>hgsoft-generator</module>
+		<module>hgsoft-common</module>
 	</modules>
 
 	<properties>
@@ -174,36 +174,36 @@
 
 			<!-- 定时任务-->
 			<dependency>
-				<groupId>com.chungfung</groupId>
-				<artifactId>system-quartz</artifactId>
+				<groupId>com.hgsoft</groupId>
+				<artifactId>hgsoft-quartz</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 代码生成-->
 			<dependency>
-				<groupId>com.chungfung</groupId>
-				<artifactId>system-generator</artifactId>
+				<groupId>com.hgsoft</groupId>
+				<artifactId>hgsoft-generator</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 核心模块-->
 			<dependency>
-				<groupId>com.chungfung</groupId>
-				<artifactId>system-framework</artifactId>
+				<groupId>com.hgsoft</groupId>
+				<artifactId>hgsoft-framework</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 系统模块-->
 			<dependency>
-				<groupId>com.chungfung</groupId>
-				<artifactId>system-service</artifactId>
+				<groupId>com.hgsoft</groupId>
+				<artifactId>hgsoft-service</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 通用工具-->
 			<dependency>
-				<groupId>com.chungfung</groupId>
-				<artifactId>system-common</artifactId>
+				<groupId>com.hgsoft</groupId>
+				<artifactId>hgsoft-common</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
