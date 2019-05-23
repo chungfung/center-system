@@ -3,24 +3,24 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.hgsoft</groupId>
-	<artifactId>center-hgsoft</artifactId>
+	<groupId>com.system</groupId>
+	<artifactId>center-system</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>center-hgsoft</name>
+	<name>center-system</name>
 	<description>Demo project for Spring Boot</description>
 
 	<modules>
-		<module>hgsoft-job-core</module>
-		<module>hgsoft-common</module>
-		<module>hgsoft-framework</module>
-		<module>hgsoft-service</module>
-		<module>hgsoft-quartz</module>
-		<module>hgsoft-generator</module>
-		<module>hgsoft-web</module>
-		<module>hgsoft-job-admin</module>
-		<module>hgsoft-job-schedule</module>
+		<module>system-job-core</module>
+		<module>system-common</module>
+		<module>system-framework</module>
+		<module>system-service</module>
+		<module>system-quartz</module>
+		<module>system-generator</module>
+		<module>system-web</module>
+		<module>system-job-admin</module>
+		<module>system-job-schedule</module>
 	</modules>
 
 	<properties>
@@ -202,36 +202,36 @@
 
 			<!-- 定时任务-->
 			<dependency>
-				<groupId>com.hgsoft</groupId>
-				<artifactId>hgsoft-quartz</artifactId>
+				<groupId>com.system</groupId>
+				<artifactId>system-quartz</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 代码生成-->
 			<dependency>
-				<groupId>com.hgsoft</groupId>
-				<artifactId>hgsoft-generator</artifactId>
+				<groupId>com.system</groupId>
+				<artifactId>system-generator</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 核心模块-->
 			<dependency>
-				<groupId>com.hgsoft</groupId>
-				<artifactId>hgsoft-framework</artifactId>
+				<groupId>com.system</groupId>
+				<artifactId>system-framework</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 系统模块-->
 			<dependency>
-				<groupId>com.hgsoft</groupId>
-				<artifactId>hgsoft-service</artifactId>
+				<groupId>com.system</groupId>
+				<artifactId>system-service</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 通用工具-->
 			<dependency>
-				<groupId>com.hgsoft</groupId>
-				<artifactId>hgsoft-common</artifactId>
+				<groupId>com.system</groupId>
+				<artifactId>system-common</artifactId>
 				<version>${ruoyi.version}</version>
 			</dependency>
 
