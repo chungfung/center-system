@@ -68,6 +68,7 @@
 		<maven-javadoc-plugin.version>3.1.0</maven-javadoc-plugin.version>
 		<maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
 		<maven-war-plugin.version>3.2.2</maven-war-plugin.version>
+		<ulisesbocchio.version>2.1.0</ulisesbocchio.version>
 	</properties>
 
 	<!-- 依赖声明 -->
@@ -233,6 +234,12 @@
 				<groupId>com.system</groupId>
 				<artifactId>system-common</artifactId>
 				<version>${ruoyi.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.github.ulisesbocchio</groupId>
+				<artifactId>jasypt-spring-boot-starter</artifactId>
+				<version>${ulisesbocchio.version}</version>
 			</dependency>
 
 		</dependencies>
